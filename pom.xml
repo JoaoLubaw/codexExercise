@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.joaolubaw</groupId>
-	<artifactId>codexexercises</artifactId>
+	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>backend</name>
+	<name>api</name>
 	<description>Codex backend challenge resolution</description>
 	<url/>
 	<licenses>

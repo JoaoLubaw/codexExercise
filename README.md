@@ -64,7 +64,11 @@ This Spring Boot-based API combines the resolution of exercises 1, 4, 5, and 6. 
    ```bash
    mvn spring-boot:run
    ```
-3. Access the Swagger UI for interacting with the API:
+3. Run directly the .jar file:
+   ```bash
+   java -jar target/api-0.0.1-SNAPSHOT.jar
+   ```
+4. Access the Swagger UI for interacting with the API:
    http://localhost:8080/swagger-ui/index.html#/
 
 ### API Endpoints Overview
