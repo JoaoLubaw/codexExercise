@@ -60,9 +60,9 @@ This Spring Boot-based API combines the resolution of exercises 1, 4, 5, and 6. 
 **How to Build and Run:**
 
 1. Ensure you have cloned the repository.
-2. Navigate to the API project directory and run the Spring Boot application:
+2. Navigate to the API project directory and install the Spring Boot application:
    ```bash
-   mvn spring-boot:run
+   mvn install
    ```
 3. Run directly the .jar file:
    ```bash
