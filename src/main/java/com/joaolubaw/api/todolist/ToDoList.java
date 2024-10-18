@@ -29,7 +29,7 @@ public class ToDoList {
     }
 
     public Task addTask(String taskText) {
-        int newId = tasks.isEmpty() ? 1 : tasks.get(tasks.size() - 1).getId() + 1; // Gera um novo ID baseado no último ID da lista
+        int newId = tasks.isEmpty() ? 1 : tasks.get(tasks.size() - 1).getId() + 1;
         Task temp = new Task(newId, taskText);
         tasks.add(temp);
         saveTasks();
